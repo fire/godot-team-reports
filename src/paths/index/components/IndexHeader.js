@@ -94,7 +94,7 @@ export default class IndexHeader extends LitElement {
         return html`
             <div class="header">
                 <h1 class="header-title">
-                    Godot Team Reports
+                    Godot Team Reports (fire's edition)
                 </h1>
                 <div class="header-metadata">
                     ${(this.generated_at ? html`

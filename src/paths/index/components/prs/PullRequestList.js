@@ -183,7 +183,7 @@ export default class PullRequestList extends LitElement {
 
         // Look in global.js for the actual defaults.
         this._sortBy          = "age";
-        this._sortDirection   = "desc";
+        this._sortDirection   = "asc";
         this._showDraft       = false;
         this._filterMilestone = "4.0";
         this._filterMergeable = "";
